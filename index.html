@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOVA | Invitaciones Digitales de Lujo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- ===== SEO BÁSICO ===== -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="NOVA Invitaciones Digitales. Diseña invitaciones elegantes para bodas, cumpleaños, baby showers y eventos corporativos. Elige estilo, colores y módulos adicionales como QR, RSVP por WhatsApp y galería de fotos.">
+<meta name="keywords" content="invitaciones digitales, invitaciones de boda, invitaciones de cumpleaños, baby shower digital, xv años digital, rsvp whatsapp, qr invitación, diseño de invitaciones en línea, NOVA invitaciones">
+<meta name="author" content="NOVA Invitaciones Digitales">
+<meta name="robots" content="index, follow">
+<meta name="language" content="Spanish">
+<meta name="revisit-after" content="7 days">
+
+<!-- ===== CANONICAL (evita contenido duplicado) ===== -->
+<link rel="canonical" href="https://TU_DOMINIO.com/">
+
+<!-- ===== FAVICON Y ICONOS ===== -->
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+
+<!-- ===== OPEN GRAPH (Facebook, WhatsApp, LinkedIn) ===== -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://TU_DOMINIO.com/">
+<meta property="og:title" content="NOVA | Invitaciones Digitales de Lujo">
+<meta property="og:description" content="Diseña invitaciones digitales elegantes para tu evento. Bodas, cumpleaños, baby showers y más. Personaliza colores, nombres, fecha y módulos adicionales.">
+<meta property="og:image" content="https://TU_DOMINIO.com/imagen-preview.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="NOVA Invitaciones Digitales - Diseño elegante">
+<meta property="og:site_name" content="NOVA Invitaciones Digitales">
+<meta property="og:locale" content="es_ES">
+<meta property="og:determiner" content="">
+
+<!-- ===== TWITTER CARDS ===== -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@TU_USUARIO_TWITTER">
+<meta name="twitter:creator" content="@TU_USUARIO_TWITTER">
+<meta name="twitter:title" content="NOVA | Invitaciones Digitales de Lujo">
+<meta name="twitter:description" content="Diseña invitaciones digitales elegantes para bodas, cumpleaños y eventos especiales.">
+<meta name="twitter:image" content="https://TU_DOMINIO.com/imagen-preview.jpg">
+
+<!-- ===== WHATSAPP / MOBILE ===== -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="NOVA Invitaciones">
+<meta name="theme-color" content="#0a0a0c">
+</head>
+<body>
+
+  <!-- NAVEGACIÓN -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">NOVA<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#ejemplos">Ejemplos</a></li>
+        <li><a href="#catalogo">Diseños</a></li>
+        <li><a href="#configurador">Personalizar</a></li>
+        <li><a href="#pedido">Solicitar</a></li>
+      </ul>
+      <div class="nav-mobile">
+        <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Invitaciones Digitales<br><span>Hechas con Alma.</span></h1>
+      <p>Diseña la invitación perfecta para tu evento especial. Elige estilo, colores y vive la experiencia antes de comprar.</p>
+      <a href="#configurador" class="btn-hero">Comenzar Diseño</a>
+    </div>
+    <div class="hero-image">
+      <div class="mock-phone-wrap">
+        <div class="mock-phone">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div id="heroPreview" class="invite-card">
+              <div class="i-border"></div>
+              <div class="i-content">
+                <div class="i-event">Boda</div>
+                <div class="i-divider"></div>
+                <div class="i-names">Ana &amp; Carlos</div>
+                <div class="i-date">25 de Diciembre, 2026</div>
+                <div class="i-location">Jardín Real</div>
+                <div class="i-extra">♪ Música de fondo</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EJEMPLOS -->
+  <section id="ejemplos" class="ejemplos">
+    <div class="container">
+      <div class="section-header">
+        <h2>Ejemplos de Invitaciones</h2>
+        <p>Mira cómo se ven nuestras creaciones antes de elegir tu diseño</p>
+      </div>
+      <div class="examples-grid">
+        <!-- Ejemplo 1: Cumpleaños colores oscuros -->
+        <div class="example-card" data-url="https://luinegg-cmd.github.io/alex" data-title="Cumpleaños Colores Oscuros">
+          <div class="example-thumb" style="background: linear-gradient(135deg,#0f172a,#1e293b);">
+            <div class="example-overlay">
+              <span class="example-tag">Cumpleaños</span>
+              <h3>Colores Oscuros</h3>
+              <p>Ver ejemplo</p>
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+          </div>
+          <div class="example-info">
+            <h3>Cumpleaños Colores Oscuros</h3>
+            <p>Estética elegante con fondo oscuro y acentos dorados.</p>
+          </div>
+        </div>
+
+        <!-- Ejemplo 2: Cumpleaños niño Minecraft -->
+        <div class="example-card" data-url="https://luinegg-cmd.github.io/Anthony/" data-title="Cumpleaños Niño Minecraft">
+          <div class="example-thumb" style="background: linear-gradient(135deg,#22c55e,#16a34a);">
+            <div class="example-overlay">
+              <span class="example-tag">Minecraft</span>
+              <h3>Cumpleaños Niño</h3>
+              <p>Ver ejemplo</p>
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+          </div>
+          <div class="example-info">
+            <h3>Cumpleaños Niño Minecraft</h3>
+            <p>Estilo bloques y píxeles para pequeños constructores.</p>
+          </div>
+        </div>
+
+        <!-- Ejemplo 3: Boda -->
+        <div class="example-card" data-url="https://luinegg-cmd.github.io/Boda/" data-title="Invitación de Boda">
+          <div class="example-thumb" style="background: linear-gradient(135deg,#d4af37,#b8860b);">
+            <div class="example-overlay">
+              <span class="example-tag">Boda</span>
+              <h3>Elegancia Nupcial</h3>
+              <p>Ver ejemplo</p>
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+          </div>
+          <div class="example-info">
+            <h3>Invitación de Boda</h3>
+            <p>Diseño romántico con acabados dorados y detalles de lujo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL EJEMPLOS -->
+  <div id="exampleModal" class="example-modal">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-header">
+        <h3 id="modalTitle">Vista Previa</h3>
+      </div>
+      <div class="modal-body">
+        <iframe id="modalIframe" src="" style="width:100%; height:600px; border:none; border-radius:16px;"></iframe>
+      </div>
+    </div>
+  </div>
+<!-- CARRUSEL DE EJEMPLOS -->
+<section id="carrusel" class="carrusel">
+  <div class="container">
+    <div class="section-header">
+      <h2>Galería de Ejemplos</h2>
+      <p>Descubre más diseños para inspirarte</p>
+    </div>
+    <div class="carousel-wrapper">
+      <div class="carousel-viewport">
+        <div class="carousel-track" id="carouselTrack">
+          <div class="carousel-slide">
+            <div class="carousel-image" style="background-image:url('fondo2.jpg')"></div>
+            <div class="carousel-caption">
+              <span class="carousel-tag">Boda</span>
+              <h3>Elegancia Nupcial</h3>
+              <p>Detalles dorados y tipografía sofisticada para el día más especial.</p>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <div class="carousel-image" style="background-image:url('fondo0.jpg')"></div>
+            <div class="carousel-caption">
+              <span class="carousel-tag">Cumpleaños</span>
+              <h3>Fiesta de Colores</h3>
+              <p>Vibrante y alegre, ideal para celebraciones llenas de energía.</p>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <div class="carousel-image" style="background-image:url('fondo5.jpg')"></div>
+            <div class="carousel-caption">
+              <span class="carousel-tag">Baby Shower</span>
+              <h3>Dulce Espera</h3>
+              <p>Tonos suaves y diseños tiernos para recibir al nuevo miembro.</p>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <div class="carousel-image" style="background-image:url('fondo3.jpg')"></div>
+            <div class="carousel-caption">
+              <span class="carousel-tag">XV Años</span>
+              <h3>Quinceañera Soñada</h3>
+              <p>Estilo de princesa con detalles que brillan como tú.</p>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <div class="carousel-image" style="background-image:url('fondo1.jpg')"></div>
+            <div class="carousel-caption">
+              <span class="carousel-tag">Bautizo.</span>
+              <h3>Bautizo</h3>
+              <p>Minimalista y profesional para ceremonias religiosas.</p>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <div class="carousel-image" style="background-image:url('fondo4.jpg')"></div>
+            <div class="carousel-caption">
+              <span class="carousel-tag">Otros</span>
+              <h3>Tu Evento Personalizado</h3>
+              <p>Creamos la invitación perfecta para cualquier ocasión.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-btn carousel-prev" id="carouselPrev"><i class="fas fa-chevron-left"></i></button>
+      <button class="carousel-btn carousel-next" id="carouselNext"><i class="fas fa-chevron-right"></i></button>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </div>
+</section>
+
+  <!-- CATÁLOGO -->
+  <section id="catalogo" class="catalogo">
+    <div class="container">
+      <div class="section-header">
+        <h2>Colección de Diseños</h2>
+        <p>Selecciona el estilo que represente tu evento</p>
+      </div>
+      <div class="designs-grid" id="designsGrid"></div>
+    </div>
+  </section>
+
+  <!-- CONFIGURADOR -->
+  <section id="configurador" class="configurador">
+    <div class="container">
+      <div class="config-grid">
+        <!-- VISTA PREVIA -->
+        <div class="preview-side">
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div id="invitePreview" class="invite-card">
+                <div class="i-border"></div>
+                <div class="i-content">
+                  <div class="i-event" id="prevEvent">Boda</div>
+                  <div class="i-divider"></div>
+                  <div class="i-names" id="prevNames">Nombres & Apellidos</div>
+                  <div class="i-date" id="prevDate">Fecha del evento</div>
+                  <div class="i-location" id="prevLocation">Lugar</div>
+                  <div class="i-extra" id="prevMusic">♪ Música de fondo</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTROLES -->
+        <div class="controls-side">
+          <div class="control-group">
+            <label>Tipo de Evento</label>
+            <select id="selEvento">
+              <option value="cumpleanos">Cumpleaños</option>
+              <option value="baby-shower">Baby Shower</option>
+              <option value="boda">Boda</option>
+              <option value="graduacion">Graduación</option>
+              <option value="xv">XV Años</option>
+              <option value="corporativo">Evento Corporativo</option>
+              <option value="otros">Otros</option>
+            </select>
+          </div>
+
+          <div id="grupoOtro" class="control-group" style="display:none;">
+            <label>Especificar tipo de evento</label>
+            <input type="text" id="inpEventoOtro" placeholder="Ej: Bautizo, Aniversario, Despedida...">
+          </div>
+
+          <div class="control-group">
+            <label>Color Predominante</label>
+            <div class="color-picker" id="colorPicker">
+              <button class="color-option active" data-color="oro" style="background:linear-gradient(135deg,#d4af37,#b8860b);" data-label="Oro"></button>
+              <button class="color-option" data-color="esmeralda" style="background:linear-gradient(135deg,#0f766e,#064e3b);" data-label="Esmeralda"></button>
+              <button class="color-option" data-color="rosa" style="background:linear-gradient(135deg,#e879f9,#be185d);" data-label="Rosa Gold"></button>
+              <button class="color-option" data-color="azul" style="background:linear-gradient(135deg,#2563eb,#1e3a8a);" data-label="Zafiro"></button>
+              <button class="color-option" data-color="bordeaux" style="background:linear-gradient(135deg,#7f1d1d,#450a0a);" data-label="Borgoña"></button>
+              <button class="color-option" data-color="platino" style="background:linear-gradient(135deg,#e5e7eb,#374151);" data-label="Platino"></button>
+            </div>
+            <div class="color-selected" id="colorSelected">Seleccionado: Oro</div>
+          </div>
+
+          <div class="control-group">
+            <label>Nombres / Anfitriones</label>
+            <input type="text" id="inpNombres" placeholder="Ej: Ana & Carlos">
+          </div>
+
+          <div class="control-group">
+            <label>Fecha del Evento</label>
+            <input type="date" id="inpFecha">
+          </div>
+
+          <div class="control-group">
+            <label>Lugar</label>
+            <input type="text" id="inpLugar" placeholder="Ej: Jardín Real">
+          </div>
+
+          <div class="control-group extras-title">
+            <label>Módulos Adicionales</label>
+            <div class="extras-list">
+              <label class="extra-item">
+                <input type="checkbox" value="qr">
+                <div>
+                  <strong>Código QR de ubicación</strong>
+                  <span class="extra-desc">Incluye: código escaneable con mapa • No incluye: impresión física</span>
+                </div>
+              </label>
+              <label class="extra-item">
+                <input type="checkbox" value="rsvp">
+                <div>
+                  <strong>Confirmación de asistencia por WhatsApp</strong>
+                  <span class="extra-desc">Incluye: botón de respuesta automática • No incluye: gestión manual de lista de invitados</span>
+                </div>
+              </label>
+              <label class="extra-item">
+                <input type="checkbox" value="galeria">
+                <div>
+                  <strong>Galería de fotos</strong>
+                  <span class="extra-desc">Incluye: hasta 10 imágenes en la invitación • No incluye: edición o retoque de fotos</span>
+                </div>
+              </label>
+              <label class="extra-item">
+                <input type="checkbox" value="regalos">
+                <div>
+                  <strong>Mesa de regalos digital</strong>
+                  <span class="extra-desc">Incluye: enlace a lista de regalos • No incluye: procesamiento de pagos</span>
+                </div>
+              </label>
+              <label class="extra-item">
+                <input type="checkbox" value="musica">
+                <div>
+                  <strong>Canción de fondo</strong>
+                  <span class="extra-desc">Incluye: integración de audio • No incluye: licencia comercial de la música</span>
+                </div>
+              </label>
+            </div>
+
+            <!-- Módulos exclusivos para BODA -->
+            <div id="modulosBodas" class="modulos-bodas" style="display:none;">
+              <div class="control-group" style="margin-top:1rem;">
+                <label>Extras exclusivos para Bodas</label>
+              </div>
+              <label class="extra-item">
+                <input type="checkbox" value="qr-invitados">
+                <div>
+                  <strong>Generador QR para número de invitados</strong>
+                  <span class="extra-desc">Incluye: código QR con capacidad de invitados • No incluye: impresión física</span>
+                </div>
+              </label>
+              <label class="extra-item">
+                <input type="checkbox" value="lector-entrada">
+                <div>
+                  <strong>Lector QR de pases para entrada</strong>
+                  <span class="extra-desc">Incluye: acceso para validar pases QR en la entrada • No incluye: hardware de escaneo</span>
+                </div>
+              </label>
+            </div>
+
+            <div class="modulo-nota">
+              <p><strong>Nota:</strong> El diseño base incluye texto, nombres, fecha y lugar. Cada módulo se agrega como función adicional a tu invitación digital.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PEDIDO / WHATSAPP -->
+  <section id="pedido" class="pedido">
+    <div class="container">
+      <div class="section-header">
+        <h2>Solicita tu Invitación</h2>
+        <p>Completa el formulario y te enviaré la confirmación por WhatsApp.</p>
+      </div>
+      <form id="pedidoForm" class="pedido-form">
+        <div class="form-grid">
+          <div class="form-group">
+            <label>Tu Nombre Completo</label>
+            <input type="text" id="fNombre" required placeholder="Juan Pérez">
+          </div>
+          <div class="form-group">
+            <label>Tu WhatsApp</label>
+            <input type="tel" id="fWhatsapp" required placeholder="+52 1 555 123 4567">
+          </div>
+          <div class="form-group">
+            <label>Correo Electrónico</label>
+            <input type="email" id="fEmail" required placeholder="juan@email.com">
+          </div>
+          <div class="form-group">
+            <label>Diseño Seleccionado</label>
+            <input type="text" id="fDiseno" readonly value="Clásico Real">
+          </div>
+          <div class="form-group">
+            <label>Evento</label>
+            <input type="text" id="fEvento" readonly value="Boda">
+          </div>
+          <div class="form-group full">
+            <label>Mensaje Adicional</label>
+            <textarea id="fMensaje" rows="3" placeholder="Hola, me interesa una invitación para..."></textarea>
+          </div>
+        </div>
+        <div class="resumen-oculto" id="resumenPedido">
+          <p><strong>Detalle:</strong> <span id="resDetalle"></span></p>
+          <p><strong>Módulos:</strong> <span id="resModulos"></span></p>
+        </div>
+        <button type="submit" class="btn-whatsapp" id="btnWhatsApp">
+          <i class="fab fa-whatsapp"></i> Enviar Pedido por WhatsApp
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">NOVA<span>.</span></div>
+        <p>Invitaciones digitales de Calidad. Diseños mágicos con elegancia para momentos inolvidables y entregadas con amor.</p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 NOVA Invitaciones Digitales. Todos los derechos reservados.
+        
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
